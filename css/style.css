@@ -1,5 +1,5 @@
 .debug{
-  background-color: #2C3E50;
+  background-color: #2a5e93;
   border: 1px solid black;
   height: 80px;
 }
@@ -7,4 +7,19 @@
 .sb-jumbotron{
     height:500px ;
     background-color: #1ABC9C;
+}
+
+.sb-container{
+  height:500px ;
+  background-color: #1ABC9C;
+}
+
+footer .sb-container{
+  background-color: #3A546D;
+  height: 300px;
+}
+
+.container-foot{
+  background-color: #2C3E50;
+  height: 150px;
 }
