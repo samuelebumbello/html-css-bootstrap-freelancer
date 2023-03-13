@@ -1,28 +1,143 @@
 /* DEBUG */
-[class^='container'],[class^='col'], .sc-container{
+/* [class^='container'],[class^='col'], .sc-container{
   background-color: rgba(255, 0, 0, .25);
   border: 1px solid #000;
   min-height: 50px;
-}
+} */
 /* ---------- */
+body{
+  font-family: font-family: 'Roboto Slab', serif;
+}
 
-.sc-container{
+.sb-container{
   width: 60%;
   margin: 0 auto;
 }
 
+#about{
+  background-color: #31BC9C;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+#portfolio{
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+
+/*******************
+      HEADER  
+ ******************/
 header{
   background-color: #2C3E50;
-  height: 90px;
+  height: 75px;
+  color: white;
+  font-weight: bold;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.fa-bars{
+  font-size: 30px;
+}
+
+.nav-link{
   color: white;
 }
 
-.sc-jumbotron{
+.star .fa-solid.fa-star{
+  color: white;
+}
+
+.star-black .fa-solid.fa-star{
+  font-size: 30px;
+}
+
+
+/*******************
+      JUMBOTRON  
+ ******************/
+
+.sb-jumbotron{
   background-color: #31BC9C;
-  height: 495px;
+  height: 550px;
   color: white;
 }
 
+.sb-jumbotron .image img{
+  width: 250px;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.list-jumbo{
+  font-size: 25px;
+}
+
+.star{
+  font-size: 30px;
+}
+
+
+
+/*******************
+        MAIN 
+ ******************/
+main .col img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+h2{
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.title-white{
+  color: white;
+  font-weight: 600;
+}
+
+.list-about{
+  color: white;
+  font-weight: 600;
+}
+
+/* FORM */
+.ms-form input, .ms-form textarea{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.ms-form input::placeholder, 
+.ms-form textarea::placeholder{
+  color: black;
+}
+
+.ms-form button{
+  background: #1ABC9C;
+  border: none;
+}
+
+.ms-form input:focus,
+.ms-form textarea:focus{
+  box-shadow: 0 1px 0 0 #31BC9C;
+}
+
+
+
+/*******************
+       FOOTER  
+ ******************/
 footer{
   color: white;
 }
@@ -33,3 +148,4 @@ footer{
 .footer-bottom{
   background-color: #2C3E50;
 }
+
