@@ -1,25 +1,35 @@
-.debug{
-  background-color: #2a5e93;
-  border: 1px solid black;
-  height: 80px;
+/* DEBUG */
+[class^='container'],[class^='col'], .sc-container{
+  background-color: rgba(255, 0, 0, .25);
+  border: 1px solid #000;
+  min-height: 50px;
+}
+/* ---------- */
+
+.sc-container{
+  width: 60%;
+  margin: 0 auto;
 }
 
-.sb-jumbotron{
-    height:500px ;
-    background-color: #1ABC9C;
-}
-
-.sb-container{
-  height:500px ;
-  background-color: #1ABC9C;
-}
-
-footer .sb-container{
-  background-color: #3A546D;
-  height: 300px;
-}
-
-.container-foot{
+header{
   background-color: #2C3E50;
-  height: 150px;
+  height: 90px;
+  color: white;
+}
+
+.sc-jumbotron{
+  background-color: #31BC9C;
+  height: 495px;
+  color: white;
+}
+
+footer{
+  color: white;
+}
+
+.footer-top{
+  background-color: #3A546D;
+}
+.footer-bottom{
+  background-color: #2C3E50;
 }
