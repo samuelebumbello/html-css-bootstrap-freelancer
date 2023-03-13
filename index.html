@@ -19,7 +19,7 @@
   <header>
     <div class="container d-flex h-100 justify-content-between align-items-center text-white">
         <div>
-            <h3>START BOOSTRAP</h3>
+            <h3><a href="#" class="text-decoration-none">START BOOSTRAP</a></h3>
         </div>
         <div class="d-none d-md-block">
             <ul class="nav">
@@ -56,11 +56,14 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <h1>START BOOTSTRAP</h1>
-                    <div class="star">
-                        <i class="fa-solid fa-star"></i>
+                    <h1 class="pb-3">START BOOTSTRAP</h1>
+                    <div class="star pb-3">
+                        <div class="linee-white">
+                            <i class="fa-solid fa-star"></i>
+                         </div>
+                        
                     </div>
-                    <p class="list-jumbo pt-2">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                    <p class="list-jumbo pt-2 pb-5">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                 </div>
             </div>
         </div>
@@ -74,9 +77,11 @@
     <!-- portfolio  -->
     <section id="portfolio" >
       <div class="container text-center pb-3">
-            <h2>PORTFOLIO</h2>
-            <div class="star-black">
-                <i class="fa-solid fa-star"></i>
+            <h2 class="pb-3">PORTFOLIO</h2>
+            <div class="star-black pb-3">
+                <div class="linee-black">
+                    <i class="fa-solid fa-star"></i>
+                </div>
             </div>
       </div>
       <div class="container">
@@ -107,18 +112,20 @@
     <!-- about  -->
     <section id="about">
       <div class="container text-center pt-5">
-            <h2 class="title-white">ABOUT</h2>
-            <div class="star">
-                <i class="fa-solid fa-star"></i>
+            <h2 class="title-white pb-3">ABOUT</h2>
+            <div class="star pb-3">
+                <div class="linee-white">
+                    <i class="fa-solid fa-star"></i>
+                 </div>
             </div>
       </div>
       <div class="sb-container">
             <div class="container-fluid">
                 <div class="row row-cols-1 row-cols-md-2">
-                    <div class="col">
+                    <div class="col pt-3">
                     <p class="list-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum voluptates non ad voluptate dignissimos in excepturi cumque! Omnis nesciunt dignissimos temporibus aliquam iste fugiat optio corrupti facere alias autem?</p> 
                     </div>
-                    <div class="col">
+                    <div class="col pt-3">
                     <p class="list-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi cum voluptates non ad voluptate dignissimos in excepturi cumque! Omnis nesciunt dignissimos temporibus aliquam iste fugiat optio corrupti facere alias autem?</p> 
                     
                     </div>
@@ -138,7 +145,9 @@
         <div class="container text-center">
             <h2>CONTACT ME</h2>
             <div class="star-black pt-3">
-                <i class="fa-solid fa-star"></i>
+                <div class="linee-black">
+                    <i class="fa-solid fa-star"></i>
+                </div>
             </div>
         </div>
         <div class="sb-container">
@@ -162,7 +171,7 @@
                                 <textarea class="form-control" id="textarea" rows="3" placeholder="Message"></textarea>
                             </div>
                 
-                            <button type="submit" class="btn btn-success">Invia</button>
+                            <button type="submit" class="btn btn-success">Send</button>
                       </form>
                     </div>
                   </div>
@@ -178,24 +187,43 @@
 
   <footer class="text-center">
     <div class="footer-top">
-      <div class="container">
-            <div class="row row-cols-1 row-cols-md-3">
+      <div class="container pt-5 pb-5">
+            <div class="row row-cols-1 row-cols-md-3 g-5">
                 <div class="col">
-                    <h4>LOCATION</h4>
-                    <span>2215 John Daniel Drive Clark, MO 54243</span>
+                    <h4 class="pb-2">LOCATION</h4>
+                    <span class="text-foot">2215 John Daniel Drive Clark, MO 54243</span>
                 </div>
                 <div class="col">
-                    <h4>AROUND THE WEB</h4>
-                    <i class="fa-brands fa-facebook-f"></i>
-                    <i class="fa-brands fa-google-plus-g"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
+                    <h4 class="pb-2">AROUND THE WEB</h4>
+
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item mx-1 d-flex align-items-center justify-content-center">
+                          <i class="fa-brands fa-facebook-f"></i>
+                        </li>
+                        <li class="nav-item mx-1 d-flex align-items-center justify-content-center">
+                          <i class="fa-brands fa-google-plus-g"></i>
+                        </li>
+                        <li class="nav-item mx-1 d-flex align-items-center justify-content-center">
+                          <i class="fa-brands fa-twitter"></i>
+                        </li>
+                        <li class="nav-item mx-1 d-flex align-items-center justify-content-center">
+                          <i class="fa-brands fa-linkedin-in"></i>
+                        </li>
+                      </ul>
+
+                    
                 </div>
-                <div class="col">lorem</div>
+                <div class="col">
+                    <h4 class="pb-2">ABOUT FREELANCER</h4>
+                    <span class="text-foot">Freelance is a free to use, open source Bootstrap theme created by <span class="text-color-foot">Start Bootstrap</span>.</span>
+                </div>
             </div>
       </div>
     </div>
-    <div class="footer-bottom">credits</div>
+    <div class="footer-bottom pt-5 pb-5">
+        <span>Copyright <i class="fa-regular fa-copyright"></i></span>
+        <span>Your Website 2019</span>
+    </div>
   </footer>
 
 </body>

@@ -1,10 +1,3 @@
-/* DEBUG */
-/* [class^='container'],[class^='col'], .sc-container{
-  background-color: rgba(255, 0, 0, .25);
-  border: 1px solid #000;
-  min-height: 50px;
-} */
-/* ---------- */
 body{
   font-family: font-family: 'Roboto Slab', serif;
 }
@@ -25,6 +18,41 @@ body{
   margin-top: 100px;
 }
 
+.star .linee-white::after{
+  content: '';
+  display: inline-block;
+  background-color: white;
+  height: 4px;
+  width: 15%;
+  margin-left: 10px;
+}
+
+.star .linee-white::before{
+  content: '';
+  display: inline-block;
+  background-color: white;
+  height: 4px;
+  width: 15%;
+  margin-right: 10px;
+}
+
+.star-black .linee-black::after{
+  content: '';
+  display: inline-block;
+  background-color: black;
+  height: 4px;
+  width: 15%;
+  margin-left: 10px;
+}
+
+.star-black .linee-black::before{
+  content: '';
+  display: inline-block;
+  background-color: black;
+  height: 4px;
+  width: 15%;
+  margin-right: 10px;
+}
 
 /*******************
       HEADER  
@@ -32,11 +60,10 @@ body{
 header{
   background-color: #2C3E50;
   height: 75px;
-  color: white;
-  font-weight: bold;
 }
 
-h3{
+h3 a{
+  color: white;
   font-weight: bold;
 }
 
@@ -45,6 +72,7 @@ h3{
 }
 
 .nav-link{
+  font-weight: bold;
   color: white;
 }
 
@@ -52,10 +80,14 @@ h3{
   color: white;
 }
 
-.star-black .fa-solid.fa-star{
+.star-black i{
   font-size: 30px;
+  vertical-align: middle;
 }
 
+.nav-link:focus, .nav-link:hover{
+  color:#1ABC9C
+}
 
 /*******************
       JUMBOTRON  
@@ -63,7 +95,6 @@ h3{
 
 .sb-jumbotron{
   background-color: #31BC9C;
-  height: 550px;
   color: white;
 }
 
@@ -72,18 +103,18 @@ h3{
 }
 
 h1{
-  font-size: 50px;
+  font-size: 60px;
   font-weight: bold;
 }
 
 .list-jumbo{
-  font-size: 25px;
-}
-
-.star{
   font-size: 30px;
 }
 
+.star i{
+  font-size: 30px;
+  vertical-align: middle;
+}
 
 
 /*******************
@@ -133,6 +164,9 @@ h2{
   box-shadow: 0 1px 0 0 #31BC9C;
 }
 
+.btn.btn-success{
+  padding: 10px 20px;
+}
 
 
 /*******************
@@ -149,3 +183,35 @@ footer{
   background-color: #2C3E50;
 }
 
+.icon-foot i{
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 20px;
+  margin-left: 10px;
+}
+
+h4{
+  font-size: 25px;
+  font-weight: 600;
+  
+}
+
+.text-foot{
+  line-height: 23px;
+  font-size: 24px;
+}
+
+.text-color-foot{
+  color: #1ABC9C;
+}
+
+.footer-bottom .fa-copyright{
+  font-size: 12px;
+}
+
+footer li.nav-item {
+  height: 42px;
+  aspect-ratio: 1/1;
+  border: 1px solid white;
+  border-radius: 50%;
+}
